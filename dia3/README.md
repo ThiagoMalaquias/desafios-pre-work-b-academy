@@ -41,5 +41,4 @@ Imagem (URL), Marca / Modelo, Ano, Placa, Cor e um botão para enviar o formulá
 
 Crie também uma tabela no HTML que irá receber os dados dos carros criados. 
 Ao preencher todos os dados e submeter o formulário, você deve criar uma nova linha na tabela
-com os dados do carro criado, limpar o formulário para receber um novo cadastro, e dar foco no primeiro campo 
-do formulário (campo imagem).
+com os dados do carro criado, limpar o formulário para receber um novo cadastro, e dar foco no primeiro campo do formulário (campo imagem).

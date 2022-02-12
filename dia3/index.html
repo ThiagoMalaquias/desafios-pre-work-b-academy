@@ -10,10 +10,61 @@
     <form action="" method="get" data-js="form">
       <label for="username">username</label>
       <input type="text" name="username" id="username" data-js="inputUsername">
-
-      <button type="submit">Salvar</button>
+      <br>
     </form>
+
+    <div data-js="app">
+    </div>
+
+    <br><br><br>
+
+    <form action="" method="get" data-js="form-cars">
+      <label for="imagem">Imagem (URL):</label>
+      <input type="text" name="imagem" id="imagem" data-js="inputImagem">
+      <br>
+
+      <label for="marca">Marca / Modelo:</label>
+      <input type="text" name="marca" id="marca" data-js="inputMarca">
+      <br>
+
+      <label for="ano">Ano:</label>
+      <input type="text" name="ano" id="ano" data-js="inputAno">
+      <br>
+
+      <label for="placa">Placa:</label>
+      <input type="text" name="placa" id="placa" data-js="inputPlaca">
+      <br>
+
+      <label for="cor">Cor:</label>
+      <input type="text" name="cor" id="cor" data-js="inputCor">
+
+      <br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br><br><br>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Imagem (URL)</th>
+          <th>Marca / Modelo</th>
+          <th>Ano</th>
+          <th>Placa</th>
+          <th>Cor</th>
+        </tr>
+      </thead>
+
+      <tbody data-js="tbody">
+
+      </tbody>
+    </table>
+
+
+
     <script type="module" src="/src/form.js"></script>
+    <script type="module" src="/src/cars.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
